@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Музыкальных Инструментов</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+</head>
+<body>
+    <header>
+        <h1>Магазин Музыкальных Инструментов</h1>
+    </header>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#products">Продукты</a>
+        <a href="#guitars">Гитары</a>
+        <a href="#pianos">Пианино</a>
+        <a href="#drums">Барабаны</a>
+        <a href="#about">О нас</a>
+        <a href="#contact">Контакты</a>
+        <a href="#register">Регистрация</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Добро пожаловать в наш магазин!</h2>
+            <p>У нас вы найдете лучшие музыкальные инструменты для профессионалов и любителей.</p>
+        </section>
+        <section id="products">
+            <h2>Наши продукты</h2>
+            <div class="bxslider">
+                <div><img src="C:\Users\Андрей\OneDrive\Рабочий стол\Музыкальный магазин сайт\Images\Guitars.jpg" alt="Гитара"></div>
+                <div><img src="C:\Users\Андрей\OneDrive\Рабочий стол\Музыкальный магазин сайт\Images\Piano.png" alt="Пианино"></div>
+                <div><img src="C:\Users\Андрей\OneDrive\Рабочий стол\Музыкальный магазин сайт\Images\Drums.png" alt="Барабаны"></div>
+            </div>
+        </section>
+        <section id="guitars">
+            <h2>Гитары</h2>
+            <div class="product">
+                <img src="Images/yamaha.jpg" alt="Гитара">
+                <div class="product-info">
+                    <h3>YAMAHA C40 Natural</h3>
+                    <p>Цена: 12 097 рублей</p>
+                </div>
+
+                <img src="Images/Ibanez.jpg" alt="Гитара">
+                <div class="product-info">
+                    <h3>Ibanez Gio GRG121DX Walnut Flat</h3>
+                    <p>Цена: 27 564 рублей</p>
+                </div>
+
+                <img src="Images/jackson.jpg" alt="Гитара">
+                <div class="product-info">
+                    <h3>Jackson Dinky Arch Top JS22 DKA Amaranth Fingerboard Snow White</h3>
+                    <p>Цена: 23 311 рублей</p>
+                </div>
+            </div>
+        </section>
+        <section id="pianos">
+            <h2>Пианино</h2>
+            <div class="product">
+                <img src="Images/kawai.jpeg" alt="Пианино">
+                <div class="product-info">
+                    <h3>Kawai K15E WH/P</h3>
+                    <p>Цена: 670 000 рублей</p>
+                </div>
+
+                <img src="Images/Yamaha1.jpg" alt="Пианино">
+                <div class="product-info">
+                    <h3>Yamaha U1</h3>
+                    <p>Цена: 1 062 826</p>
+                </div>
+
+                <img src="Images/Royal.jpg" alt="Пианино">
+                <div class="product-info">
+                    <h3>YAMAHA CLP-795GP</h3>
+                    <p>Цена: 899 990 рублей</p>
+                </div>
+            </div>
+        </section>
+        <section id="drums">
+            <h2>Барабаны</h2>
+            <div class="product">
+                <img src="Images/Yamaha2.jpg" alt="Барабаны">
+                <div class="product-info">
+                    <h3>Yamaha Rydeen RDP2F5 Burgundy Glitter</h3>
+                    <p>Цена: 46 232 рублей</p>
+                </div>
+
+                <img src="Images/pearl.jpg" alt="Барабаны">
+                <div class="product-info">
+                    <h3>Pearl EXX725BR/C31 черный</h3>
+                    <p>Цена: 107 044 рублей</p>
+                </div>
+
+                <img src="Images/Yamaha2.jpg" alt="Барабаны">
+                <div class="product-info">
+                    <h3>Gewa Music GD809556 серебристый</h3>
+                    <p>Цена: 531 089 рублей</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Мы являемся ведущим магазином музыкальных инструментов в регионе, предлагая широкий выбор продукции и отличное обслуживание клиентов.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <p>Адрес: ул. Музыкальная, д. 1, г. Москва</p>
+            <p>Телефон: +7 (775) 999-99-99</p>
+            <p>Email: info@musicshop.ru</p>
+        </section>
+        <section id="register">
+            <h2>Регистрация</h2>
+            <form class="registration-form">
+                <h2>Регистрация</h2>
+                <label for="name">ФИО:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="address">Адрес:</label>
+                <input type="text" id="address" name="address" required>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Магазин Музыкальных Инструментов</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
